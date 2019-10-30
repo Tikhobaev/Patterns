@@ -1,5 +1,6 @@
 # Patterns
 Some useful patterns
+
 Already implemented:
   1. Strategy
   2. Observer
