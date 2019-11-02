@@ -2,17 +2,10 @@ package Factory.Pizza;
 
 public class NyVeggiePizza extends Pizza {
     public NyVeggiePizza(){
+        Name = "NY style sause and veggie pizza";
+        Dough = "Extra thick crush dough";
+        Sause = "Plum tomato sause";
 
-    }
-    public void Bake(){
-
-    }
-
-    public void Cut(){
-
-    }
-
-    public void Box(){
-
+        toppings.add("Shredded mozzarela cheese");
     }
 }

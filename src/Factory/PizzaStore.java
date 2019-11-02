@@ -7,6 +7,7 @@ public abstract class PizzaStore {
         Pizza pizza;
         pizza = CreatePizza(pizzaType);
 
+        pizza.Prepare();
         pizza.Bake();
         pizza.Cut();
         pizza.Box();

@@ -1,18 +1,11 @@
 package Factory.Pizza;
 
 public class NyCheesePizza extends Pizza{
-    public NyCheesePizza(){
+    public NyCheesePizza() {
+        Name = "NY style sause and cheese pizza";
+        Dough = "Thin crush dough";
+        Sause = "Marinara sause";
 
-    }
-    public void Bake(){
-
-    }
-
-    public void Cut(){
-
-    }
-
-    public void Box(){
-
+        toppings.add("Grated Reggiano cheese");
     }
 }
